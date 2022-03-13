@@ -1,0 +1,99 @@
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    
+    padding: 0 0.75rem;
+}
+#navbar ul{
+    display: flex;
+    list-style-type: none; 
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 1rem;
+
+
+}
+#navbar ul li a:hover{
+    background:lightblue ;
+    border-radius: 01.5rem;
+}
+#dukkan {
+    display: flex;
+    
+
+}
+#dukkan .tanitim{
+    display: flex;
+    margin: 1rem 1rem;
+    
+}
+#dukkan .tanitim .tanitimbilgi{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
+    padding-bottom: 01.50rem ;
+    justify-items: center;
+    
+}
+
+#dukkan .tanitim .tanitimbilgi .tanit{
+    max-height: 9rem;
+    overflow-y: scroll;
+    border-bottom: grey solid 2px;
+}
+
+#dukkan .tanitim .tanitimbilgi div:nth-child(2){
+    margin-top: 1.5rem;
+}
+#katalog{
+    color: white;
+}
+#katalog h3:nth-child(1){
+    padding-top: 0.7rem;
+}
+#katalog .katalog{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    
+}
+#katalog .katalog ul li{
+    list-style-type: none;
+    padding: 0.2rem;
+    
+}
+#katalog .katalog div:hover{
+    color:lightcoral
+}
+
+#contact {
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+}
+#contact .contact-form{
+    max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+    
+}
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+  }
+  #contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  #contact .contact-form ul li a:hover {
+    opacity: 0.8;
+  }
+  

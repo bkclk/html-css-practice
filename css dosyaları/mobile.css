@@ -1,0 +1,16 @@
+#navbar {
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    height: 7rem;
+}
+#katalog .katalog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+    
+}

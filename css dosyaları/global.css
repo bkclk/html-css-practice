@@ -1,0 +1,67 @@
+html {
+    font-family:'Roboto Condensed', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.text-center{
+    text-align: center;
+}
+a{
+
+    color: white;
+    text-decoration: none;
+}
+.bg_darkblue{
+    background: darkblue;
+}
+.bg_lightblue{
+    background: lightblue;
+}
+.header-big{
+    font-size: 1.75rem;
+}
+.header-nomral{
+    font-size: 1.50rem;
+}
+.header-small{
+    font-size: 1.25rem;
+}
+.container{
+    max-width: 1100px;
+    margin:0 auto
+}
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.7px;
+    
+}
+.btn-primary{
+    background: darkblue;
+}
+.btn-primary:hover{
+    background: white;
+    border: solid darkblue 3px;
+    color: darkblue;
+    font-weight: bold;
+}
+.btn-block{
+    width: 100%;
+}
+.form-group label {
+    display: block;
+  }
+  .form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+  }
